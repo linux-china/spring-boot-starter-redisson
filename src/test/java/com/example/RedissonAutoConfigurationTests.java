@@ -4,7 +4,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.mvnsearch.spring.boot.redisson.RedissonAutoConfiguration;
 import org.redisson.RedissonClient;
-import org.redisson.core.RList;
 import org.redisson.core.RMap;
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 import org.springframework.context.ApplicationContext;
@@ -18,13 +17,13 @@ import org.springframework.context.annotation.Configuration;
  * @author linux_china
  */
 @Configuration
-public class Hibernate5AutoConfigurationTests {
+public class RedissonAutoConfigurationTests {
     private static ApplicationContext context;
 
     @BeforeClass
     public static void setUp() {
         context = new AnnotationConfigApplicationContext(
-                Hibernate5AutoConfigurationTests.class, RedissonAutoConfiguration.class);
+                RedissonAutoConfigurationTests.class, RedissonAutoConfiguration.class);
     }
 
     @Bean
