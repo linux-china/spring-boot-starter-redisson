@@ -17,7 +17,6 @@ import org.springframework.context.annotation.Configuration;
 @SuppressWarnings("SpringJavaAutowiringInspection")
 @Configuration
 @AutoConfigureAfter(RedisAutoConfiguration.class)
-@EnableConfigurationProperties(RedisProperties.class)
 public class RedissonAutoConfiguration {
     @Autowired
     private RedisProperties redisProperties;
