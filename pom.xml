@@ -14,8 +14,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <spring-boot.version>1.4.0.RELEASE</spring-boot.version>
-        <redisson.version>2.3.0</redisson.version>
+        <spring-boot.version>1.4.1.RELEASE</spring-boot.version>
+        <redisson.version>3.0.1</redisson.version>
     </properties>
 
     <developers>
