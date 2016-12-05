@@ -29,3 +29,4 @@ Spring Boot Starter Redisson
 
 * Redisson Site: http://redisson.org/
 * Redisson github: https://github.com/mrniko/redisson/wiki/Usage-examples
+* Chinese document: https://github.com/redisson/redisson/wiki/%E7%9B%AE%E5%BD%95
