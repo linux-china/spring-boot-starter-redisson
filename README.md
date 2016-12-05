@@ -27,4 +27,5 @@ Spring Boot Starter Redisson
 
 ### 参考文档
 
-* Redisson Usage: https://github.com/mrniko/redisson/wiki/Usage-examples
+* Redisson Site: http://redisson.org/
+* Redisson github: https://github.com/mrniko/redisson/wiki/Usage-examples
