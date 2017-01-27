@@ -1,6 +1,8 @@
 package org.mvnsearch.spring.boot.redisson;
 
 import org.redisson.*;
+import org.redisson.api.*;
+import org.redisson.config.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration;

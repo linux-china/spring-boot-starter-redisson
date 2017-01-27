@@ -14,8 +14,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <spring-boot.version>1.4.2.RELEASE</spring-boot.version>
-        <redisson.version>3.2.0</redisson.version>
+        <spring-boot.version>1.4.4.RELEASE</spring-boot.version>
+        <redisson.version>3.2.3</redisson.version>
     </properties>
 
     <developers>
@@ -27,6 +27,10 @@
             <roles>
                 <role>Developer</role>
             </roles>
+        </developer>
+        <developer>
+            <id>iirekm</id>
+            <email>iirekm@gmail.com</email>
         </developer>
     </developers>
 

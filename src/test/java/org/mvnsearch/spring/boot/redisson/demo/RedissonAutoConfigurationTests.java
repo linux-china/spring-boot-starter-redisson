@@ -2,8 +2,9 @@ package org.mvnsearch.spring.boot.redisson.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.redisson.RedissonClient;
-import org.redisson.core.RMap;
+import org.redisson.*;
+import org.redisson.api.*;
+import org.redisson.config.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
