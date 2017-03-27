@@ -17,7 +17,7 @@ spring.redis.host=localhost
 ```
 @Autowired
 private RedissonClient redissonClient;
-``
+```
 ### spring-boot-start-hibernate5提供的服务
 
 * org.redisson.RedissonClient: Redisson Client
