@@ -8,12 +8,12 @@ Spring Boot Starter Redisson
 
 Please refer https://jitpack.io/#linux-china/spring-boot-starter-redisson/3.3.2
 
-* 在spring-boot-starter-redisson是依赖spring-boot-starter-redis的配置,所以你只需要加入spring redis的相关配置即可,如下:
+* 在spring-boot-starter-redisson是依赖spring-boot-starter-data-redis的配置,所以你只需要加入spring boot redis的相关配置即可,如下:
 ```properties
 spring.redis.host=localhost
 ```
 
-* 接下来在你的代码中直接应用cacheManager，然后就可以啦。
+* 接下来在你的代码中直接应用RedissonClient，然后就可以啦。
 ```
 @Autowired
 private RedissonClient redissonClient;
