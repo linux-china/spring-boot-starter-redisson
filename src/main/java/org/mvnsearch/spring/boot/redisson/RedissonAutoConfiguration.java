@@ -1,6 +1,6 @@
 package org.mvnsearch.spring.boot.redisson;
 
-import org.redisson.*;
+import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
 import org.redisson.config.SentinelServersConfig;
@@ -39,7 +39,8 @@ public class RedissonAutoConfiguration {
             }
         } else { //single server
             SingleServerConfig singleServerConfig = config.useSingleServer();
-            singleServerConfig.setAddress(redisProperties.getHost() + ":" + redisProperties.getPort());
+            // format as redis://127.0.0.1:7181 or rediss://127.0.0.1:7181 for SSL
+            singleServerConfig.setAddress("redis://" + redisProperties.getHost() + ":" + redisProperties.getPort());
             singleServerConfig.setDatabase(redisProperties.getDatabase());
             if (redisProperties.getPassword() != null) {
                 singleServerConfig.setPassword(redisProperties.getPassword());
